@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Demo: CSS Gradient Box</title>
+<style type="text/css">
+body {
+	width: 600px;
+	text-align: center;
+	margin: 100px auto;
+}
+.gradient {
+	width: 200px;
+	height: 200px;
+
+	background: #999; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */ 
+}
+
+</style>
+</head>
+
+<body>
+<div class="gradient">
+	gradient box
+</div>
+
+<p>
+http://www.webdesignerwall.com/tutorials/cross-browser-css-gradient/
+</p>
+</body>
+</html>

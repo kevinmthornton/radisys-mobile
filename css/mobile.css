@@ -1,0 +1,206 @@
+/* -- reset -- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, font,
+img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend, button, table, caption, tbody,
+tfoot, thead, tr, th, td, col {
+ background: transparent no-repeat 0 0;
+ border: 0;
+ font-size: 100%;
+ margin: 0;
+ outline: none;
+ padding: 0;
+ vertical-align: baseline;
+ }
+em { font-style: italic; }
+input, textarea { margin: 0; padding: 0; }
+object { display: block; }
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+
+
+body {
+	font-size: 16px;
+	font-family: Arial, arial, helvetica, sans-serif;
+	margin: 0 8px;
+}
+
+.PageTitle {
+	padding: 0 8px;
+	font-size: 20px;
+	margin: 5px 0; 
+	background:#f2f2f2;
+	color:#695d54;
+	border:1px solid #ccc;
+}
+
+.SubTitle {
+	font-size: 18px;
+	color:#695d54;
+}
+
+.ProductThumbnail {
+	float: right;
+}
+/* main div in the page */
+#content {
+	margin: 8px 8px;
+	padding: 0;
+}
+
+/* the base for all links; need to set font-size from here for anything else */
+a {
+	color:#084887; /* the radisys blue */
+	text-decoration:none;
+	line-height: 1.3;
+}
+
+p {
+    margin: 0px 0 8px 0;
+	font-size: 16px;
+}
+/* front page navigation; gray buttons */
+
+ul.MainNav {
+	list-style-type:none;
+	line-height:39px;
+	margin: 0px;
+	padding: 0 ;
+}
+
+ul.MainNav li {
+	position: relative;
+	margin: 0px;
+	padding:0 5px;
+	text-transform:uppercase;
+	/*text-shadow:#75828e 1px -1px; */
+	background:  url(../images/nav-background.gif) repeat-x;
+	border:1px solid #75828e;
+	background-color:#e3e3e3; 
+}
+
+ul.MainNav li.active {
+	background:#fff;
+}
+
+ul.MainNav li a   {
+	padding: 8px;
+	text-decoration:none;
+	display: block;
+	background:url(../images/arrow.gif) no-repeat right;
+}
+
+ul.MainNav li.active  {
+	color:#ffffff; 
+	text-shadow:none;
+}
+
+ul.MainNav li a {
+	text-decoration:none;
+	color:#525252;
+	font-size:24px;
+}
+
+/* upper right div for contact us*/
+#TopRight {
+	float: right;
+	margin-top: 12px;
+	margin-right: 8px;
+}
+
+#TopRight a {
+	color:#084887; /* the radisys blue */
+	font-size: 1.2em;
+}
+
+/* navigation lists; NavList is the main outside list*/
+#NavList ul  {
+	list-style-position:outside;
+}
+
+#NavList li  {
+	font-size: 20px;
+	color:#000000;
+	padding: 0 8px;
+	list-style: none;
+}
+
+#NavList li a {
+	color:#084887; /* the radisys blue */
+	text-decoration:none;
+	line-height: 1.3;
+	font-size: 22px;
+}
+
+#SubNavList li {
+	list-style: none;
+	list-style-position:outside;
+}
+
+#SubNavList li a {
+	display:block;
+	padding: 0 8px; /* push these in another 8 px */
+	color:#084887; /* the radisys blue */
+	text-decoration:none;
+	line-height: 1.3;
+	font-size: 22px;
+}
+
+/* everything for the footer */
+#FooterNav { 
+	padding: 0;
+}
+
+#FooterNav ul {
+	display:inline-block;
+	clear:both;
+	overflow:auto;
+	list-style:none;
+	margin:8px 0;
+	border:1px solid #ccc;
+}
+
+#FooterNav ul li {
+	float:left;
+	display:inline;
+	padding:0;
+	border-left:1px solid #ccc;
+}
+
+#FooterNav ul li:first-child {
+	padding-left:0;
+	border:none;
+}
+
+#FooterNav ul li a {
+	padding: 0 8px;
+	font-size: 20px;
+	
+}
+
+#Legal {
+	color:#a5b8c9;
+	text-transform:uppercase;
+	text-align:left;
+	font-size:.6em;
+}
+
+/* for the contact us section*/
+#headquarters {
+	margin:0 0 20px 0;
+	padding:10px; 
+	background-color:#f8f8f8;
+	border:1px solid #999;
+}
+
+#headquarters h3 {
+	margin:-10px -10px 10px -10px;
+	padding:10px;
+	background:#a5b8c9;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+#headquarters p {
+    font-size: 1.2em;
+}

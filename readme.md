@@ -1,0 +1,1 @@
+This mobile site was created to work with an XML based CMS that was custom built. I used the XML generated files from this site and parsed them with PHP so only one set of files was used to run both the main web site and this mobile version.
